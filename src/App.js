@@ -19,10 +19,9 @@ function App() {
 
     
       <ul>
-        {todos.map{(todo) => (
-          
-        ) }}
-        <li></li>
+        {todos.map((todo, index)=> (
+          <Todo key={index} todo={todo} />
+        ))}
       </ul>
       </div>
       
