@@ -16,6 +16,11 @@ const style = {
 function App() {
   const [todos, setTodos] = useState(['Learn React', 'Grind Leetcode'])
 
+  // Create todo
+  // read todo from firebase
+  //update todo in firebase
+  // delete todo
+
   return (
     <div className={style.bg}>
       <div className={style.container}>
